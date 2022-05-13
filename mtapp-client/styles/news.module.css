@@ -1,0 +1,57 @@
+.item {
+  margin: 1rem 0;
+  padding: 5px;
+}
+.flex{
+  display: flex;
+}
+
+.content {
+  text-align: center;
+  padding: 0.5rem 0.2rem;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  color: #2c292b;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.content h4 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.content p {
+  margin: 0;
+}
+
+.actions {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: #77002e;
+  border: 1px solid #77002e;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #ffe2ed;
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    max-height: 350px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .image {
+    max-height: 310px;
+  }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTApp.API", "MTApp.API\MTApp.API.csproj", "{2876439F-2BF8-478A-ABDE-EB82B279124C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2876439F-2BF8-478A-ABDE-EB82B279124C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2876439F-2BF8-478A-ABDE-EB82B279124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2876439F-2BF8-478A-ABDE-EB82B279124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2876439F-2BF8-478A-ABDE-EB82B279124C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFC06A53-E8D4-4AB0-85CA-630B19B571D6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+.multilanguage {
+  position: relative;
+  top: 0.6rem;
+  height: 3.2rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5rem;
+  li {
+    cursor: pointer;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    &:first-child {
+      padding-top: 0rem;
+    }
+    span {
+      width: 3rem;
+    }
+  }
+}
+
+.multilanguage.active {
+  top: 3.55rem;
+  height: 100%;
+  transition: height 2s linear;
+}
